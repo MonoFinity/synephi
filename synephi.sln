@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA244E0B-3B73-4628-AA0B-B32048CD8BDF}"
+	ProjectSection(SolutionItems) = preProject
+		synephi.csproj = synephi.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADB4ED8A-1123-40AE-89ED-131E3A6A5B42}"
+	ProjectSection(SolutionItems) = preProject
+		src\AudioProcessor.cs = src\AudioProcessor.cs
+		src\MidiProcessor.cs = src\MidiProcessor.cs
+		src\Plugin.cs = src\Plugin.cs
+		src\PluginCommandStub.cs = src\PluginCommandStub.cs
+		src\SynthManager.cs = src\SynthManager.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADB4ED8A-1123-40AE-89ED-131E3A6A5B42} = {FA244E0B-3B73-4628-AA0B-B32048CD8BDF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF376DBB-97F1-4590-9BC4-B718C59B2CB0}
+	EndGlobalSection
+EndGlobal
