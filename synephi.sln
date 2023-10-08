@@ -11,6 +11,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADB4ED8A-1123-40AE-89ED-131E3A6A5B42}"
 	ProjectSection(SolutionItems) = preProject
 		src\AudioProcessor.cs = src\AudioProcessor.cs
+		Composer.cs = Composer.cs
 		src\MidiProcessor.cs = src\MidiProcessor.cs
 		src\Plugin.cs = src\Plugin.cs
 		src\PluginCommandStub.cs = src\PluginCommandStub.cs
